@@ -1,0 +1,74 @@
+.container {
+    background-color: black;
+    color: white;
+
+}
+
+.nav ul {
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.left {
+    float: left;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+}
+
+.right {
+    float: right;
+}
+
+.right button {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.actual {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Merriweather', serif;
+}
+
+.cards {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    margin: 20px auto;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 18%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.next {
+    width: 100px;
+    padding: 10px 20px;
+}
+
+.previous {
+    width: 100px;
+    padding: 10px 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
