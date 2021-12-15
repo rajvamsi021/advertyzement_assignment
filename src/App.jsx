@@ -3,6 +3,8 @@ import React,{useState} from "react";
 import Nav from './components/Nav';
 import Body from './components/Body';
 
+import './styles.css'
+
 function App() {
 
   const [drive, setDrive] = useState();
