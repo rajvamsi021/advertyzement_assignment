@@ -1,3 +1,0 @@
-# advertyzement_assignment
-
-Assignment
